@@ -1,7 +1,23 @@
 aid: twinn-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/twinn-health.png
 name: Twinn Health
-description: Twinn Health is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Twinn Health builds preventive whole-body MRI infrastructure for early disease
+  detection, pairing AI-structured imaging reports and longitudinal health data pipelines with
+  imaging providers and wellness clinics in the UK, Saudi Arabia, and the wider Middle East.
+  Founded at Imperial College London, validated with UK-based NHS clinicians, and backed by 500
+  Global and Wa'ed Ventures, it also offers expert MRI report interpretation for individuals.
+  Twinn Health publishes no public API or developer surface as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/twinn-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Medical Imaging
+- MRI
+- Preventive Health
+- Artificial Intelligence
+- Diagnostics
+- Longevity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/twinn-health-domain-security.yml
 - type: Website
   url: https://twinn.health
+- type: LLMsTxt
+  url: llms/twinn-health-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,13 @@
+# Twinn Health
+
+> Twinn Health builds preventive whole-body MRI infrastructure for early disease detection, pairing AI-structured imaging reports and longitudinal health data pipelines with imaging providers and wellness clinics in the UK, Saudi Arabia, and the wider Middle East. Founded at Imperial College London, validated with UK-based NHS clinicians, and backed by 500 Global and Wa'ed Ventures. It also offers expert MRI report interpretation for individuals.
+
+Twinn Health publishes no public API, developer portal, SDKs, or machine-readable specifications as of 2026-07-21. Access to its imaging infrastructure is institutional, by request.
+
+## Docs
+
+- [Website](https://twinn.health): Company site — vision, model, infrastructure partnerships, and individual MRI report review.
+
+## Optional
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/twinn-health/refs/heads/main/apis.yml): API Evangelist network profile for Twinn Health.
