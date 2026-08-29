@@ -30,6 +30,9 @@ description: Twinn Health builds preventive whole-body MRI infrastructure for ea
   Global and Wa'ed Ventures, it also offers expert MRI report interpretation for individuals.
   Twinn Health publishes no public API or developer surface as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/twinn-health/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Twinn Health publishes no public API or developer surface as of July 2026."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
